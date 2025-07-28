@@ -8,10 +8,10 @@ const Context = () => {
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-titles">Contact Me</h1>
-                    <p> <i class="fa-solid fa-paper-plane"></i> hasnainmohammad023@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> 9643641854</p>
-                    <p><i class="fa-solid fa-location-dot"></i> India</p>
-                    
+                    <a href="mailto:hasnainmohammad023@gmail.com"><p> <i class="fa-solid fa-paper-plane"></i> hasnainmohammad023@gmail.com</p></a>
+                    <a href="tel:9643641854"><p><i class="fa-solid fa-phone"></i>9643641854</p></a>
+                    <a href="https://www.google.com/maps/@28.4984858,77.4335947,12z?hl=en&entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><p><i class="fa-solid fa-location-dot"></i> India</p></a>
+
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/in/mohd-hasnain-63789b297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://wa.me/9643641854"><i class="fa-brands fa-whatsapp"></i></a>

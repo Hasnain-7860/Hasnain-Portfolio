@@ -18,8 +18,8 @@ const Navbar = () => {
 
   }
   return (
-    <div  className=' navbar flex align-center justify-between items-center mx-[70px] my-[20px]'>
-        <h1 className='text-[22px] text-[#BFBFC6]'>Mohd Hasnain</h1>
+    <div  className='flex items-center justify-between fixed  left-0 w-full bg-[#161513] shadow-md  px-[20px] py-[20px] z-50'>
+        <h1 className=' sm:text-[22px] text-[#BFBFC6] '>Mohd Hasnain</h1>
         <h1 className='nav-mob-open display-hidden' onClick={openMenu}><RxHamburgerMenu /></h1>
         <ul ref={menuRef} className='nav-menu flex align-center style-none gap-[60px] text-[20px] text-[#BFBFC6]'>
           <h1 className='nav-mob-close ' onClick={closeMenu}><AiOutlineClose /></h1>
