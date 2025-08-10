@@ -7,7 +7,7 @@ import { LuArrowDownToLine } from "react-icons/lu";
 
 const Hero = () => {
   return (
-    <div className='flex items-center flex-col gap-[30px] justify-center h-[100vh]   text-white lg:h-[100vh]'> 
+    <div className='flex items-center flex-col gap-[10px] justify-center h-[100vh]   text-white lg:h-[100vh] lg:pt-[150px]'> 
         <h1 className='text-center w-[100%] text-[30px] text-[#BFBFC6] lg:text-[80px] lg:w-[60%]  '><span className='font-bold'>Hello! I'm Mohd Hasnain</span> Frontend Developer</h1>
         <p className='w-[85%] align-center text-center text-[15px] text-[#BFBFC6] lg:text-[24px] lg:w-[50%]  '>Building the web with passion and precision.</p>
         <div className='flex items-center gap-[25px] text-[24px] font-semibold mb-[50px]'>

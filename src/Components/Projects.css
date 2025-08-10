@@ -77,6 +77,16 @@
     background: #ff004f;
 }
 
+@media only screen and (max-width: 1300px) {
+    .work-list {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .work {
+            margin-bottom: 30px;
+        }
+    }
+    
+}
 @media only screen and (max-width: 900px) {
     .work-list {
         grid-template-columns: 1fr 1fr;
